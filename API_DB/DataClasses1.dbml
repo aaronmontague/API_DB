@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="test2" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=TRYNUMBER3\SQLEXPRESS;Initial Catalog=test2;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="localTest2" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.person_info" Member="person_infos">
+    <Type Name="person_info">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="firstName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="lastName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="streetName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="houseNumber" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="city" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="state" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="zipCode" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
